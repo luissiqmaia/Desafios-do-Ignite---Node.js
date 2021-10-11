@@ -4,7 +4,7 @@ import { User } from "../../../modules/users/model/User";
 
 describe("User model", () => {
   it("should be able to create an user with all props", () => {
-    const user = new User({});
+    const user = new User();
 
     Object.assign(user, {
       name: "Atlas",
